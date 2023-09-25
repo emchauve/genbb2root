@@ -1,3 +1,8 @@
+#include "TFile.h"
+#include "TTree.h"
+#include "TH1F.h"
+#include "TCanvas.h"
+#include "TLegend.h"
 
 void energy_spectrum (const char *root_filename, const int energy_nbins=3000, const float energy_min=0, const float energy_max=3)
 {
@@ -32,4 +37,12 @@ void energy_spectrum (const char *root_filename, const int energy_nbins=3000, co
   (new TCanvas)->SetLogy();
   gamma_histo->Draw();
   electron_histo->Draw("same");
+
+  TLegend *energy_legend = new TLegend (0.6, 0.7, 0.9, 0.9);
+  (energy_legend->AddEntry(gamma_histo, "GAMMA", ""))->SetTextColor(gamma_histo->GetLineColor());
+  (energy_legend->AddEntry(electron_histo, "ELECTRON", ""))->SetTextColor(electron_histo->GetLineColor());
+  energy_legend->SetBorderSize(0);
+  energy_legend->SetFillStyle(0);
+  energy_legend->Draw();
+
 }
