@@ -25,4 +25,4 @@ root [0] .L scripts/energy_spectrum.cc
 energy_spectrum("data/bi207.root");
 ```
 
-.. image:: plots/bi207.png
+![bi207 gamma+electron spectrum](plots/bi207.png)
