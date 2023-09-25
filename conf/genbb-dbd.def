@@ -1,0 +1,287 @@
+# -*- mode: conf-unix; -*-
+
+#@description A non-exhaustive list of GENBB DBD generators
+#@key_label   "name"
+#@meta_label  "type"
+
+################################
+[name="ca48_2b0n" type="genbb::wdecay0"]
+decay_type      : string  = "DBD"
+decay_isotope   : string  = "Ca48"
+decay_dbd_level : integer = 0
+decay_dbd_mode  : integer = 1
+################################
+[name="ca48_2b2n" type="genbb::wdecay0"]
+decay_type      : string  = "DBD"
+decay_isotope   : string  = "Ca48"
+decay_dbd_level : integer = 0
+decay_dbd_mode  : integer = 4
+################################
+[name="ca48_2b2n_tail75" type="genbb::wdecay0"]
+decay_type      : string  = "DBD"
+decay_isotope   : string  = "Ca48"
+decay_dbd_level : integer = 0
+decay_dbd_mode  : integer = 4
+energy_min      : real    = 3.204 MeV # 75% x Qbb (4.272 MeV)
+################################
+[name="ca48_2b2n_tail85" type="genbb::wdecay0"]
+decay_type      : string  = "DBD"
+decay_isotope   : string  = "Ca48"
+decay_dbd_level : integer = 0
+decay_dbd_mode  : integer = 4
+energy_min      : real    = 3.6312 MeV # 85% x Qbb (4.272 MeV)
+################################
+[name="ca48_2b2n_tail90" type="genbb::wdecay0"]
+decay_type      : string  = "DBD"
+decay_isotope   : string  = "Ca48"
+decay_dbd_level : integer = 0
+decay_dbd_mode  : integer = 4
+energy_min      : real    = 3.8448 MeV # 90% x Qbb (4.272 MeV)
+################################
+
+################################
+[name="se82_2b0n" type="genbb::wdecay0"]
+decay_type      : string  = "DBD"
+decay_isotope   : string  = "Se82"
+decay_dbd_level : integer = 0
+decay_dbd_mode  : integer = 1
+################################
+[name="se82_2b2n" type="genbb::wdecay0"]
+decay_type      : string  = "DBD"
+decay_isotope   : string  = "Se82"
+decay_dbd_level : integer = 0
+decay_dbd_mode  : integer = 4
+################################
+[name="se82_2b2n_tail75" type="genbb::wdecay0"]
+decay_type      : string  = "DBD"
+decay_isotope   : string  = "Se82"
+decay_dbd_level : integer = 0
+decay_dbd_mode  : integer = 4
+energy_min      : real    = 2.24625 MeV # 75% x Qbb (2.995 MeV)
+################################
+[name="se82_2b2n_tail85" type="genbb::wdecay0"]
+decay_type      : string  = "DBD"
+decay_isotope   : string  = "Se82"
+decay_dbd_level : integer = 0
+decay_dbd_mode  : integer = 4
+energy_min      : real    = 2.54575 MeV # 85% x Qbb (2.995 MeV)
+################################
+[name="se82_2b2n_tail90" type="genbb::wdecay0"]
+decay_type      : string  = "DBD"
+decay_isotope   : string  = "Se82"
+decay_dbd_level : integer = 0
+decay_dbd_mode  : integer = 4
+energy_min      : real    = 2.6955 MeV # 90% x Qbb (2.995 MeV)
+################################
+
+################################
+[name="zr96_2b0n" type="genbb::wdecay0"]
+decay_type      : string  = "DBD"
+decay_isotope   : string  = "Zr96"
+decay_dbd_level : integer = 0
+decay_dbd_mode  : integer = 1
+################################
+[name="zr96_2b2n" type="genbb::wdecay0"]
+decay_type      : string  = "DBD"
+decay_isotope   : string  = "Zr96"
+decay_dbd_level : integer = 0
+decay_dbd_mode  : integer = 4
+################################
+[name="zr96_2b2n_tail75" type="genbb::wdecay0"]
+decay_type      : string  = "DBD"
+decay_isotope   : string  = "Zr96"
+decay_dbd_level : integer = 0
+decay_dbd_mode  : integer = 4
+energy_min      : real    = 2.5125 MeV # 75% x Qbb (3.350 MeV)
+################################
+[name="zr96_2b2n_tail85" type="genbb::wdecay0"]
+decay_type      : string  = "DBD"
+decay_isotope   : string  = "Zr96"
+decay_dbd_level : integer = 0
+decay_dbd_mode  : integer = 4
+energy_min      : real    = 2.8475 MeV # 85% x Qbb (3.350 MeV)
+################################
+[name="zr96_2b2n_tail90" type="genbb::wdecay0"]
+decay_type      : string  = "DBD"
+decay_isotope   : string  = "Zr96"
+decay_dbd_level : integer = 0
+decay_dbd_mode  : integer = 4
+energy_min      : real    = 3.015 MeV # 90% x Qbb (3.350 MeV)
+################################
+
+################################
+[name="mo100_2b0n" type="genbb::wdecay0"]
+decay_type      : string  = "DBD"
+decay_isotope   : string  = "Mo100"
+decay_dbd_level : integer = 0
+decay_dbd_mode  : integer = 1
+################################
+[name="mo100_2b2n" type="genbb::wdecay0"]
+decay_type      : string  = "DBD"
+decay_isotope   : string  = "Mo100"
+decay_dbd_level : integer = 0
+decay_dbd_mode  : integer = 4
+################################
+[name="mo100_2b2n_tail75" type="genbb::wdecay0"]
+decay_type      : string  = "DBD"
+decay_isotope   : string  = "Mo100"
+decay_dbd_level : integer = 0
+decay_dbd_mode  : integer = 4
+energy_min      : real    = 2.2755 MeV # 75% x Qbb (3.034 MeV)
+################################
+[name="mo100_2b2n_tail85" type="genbb::wdecay0"]
+decay_type      : string  = "DBD"
+decay_isotope   : string  = "Mo100"
+decay_dbd_level : integer = 0
+decay_dbd_mode  : integer = 4
+energy_min      : real    = 2.5789 MeV # 85% x Qbb (3.034 MeV)
+################################
+[name="mo100_2b2n_tail90" type="genbb::wdecay0"]
+decay_type      : string  = "DBD"
+decay_isotope   : string  = "Mo100"
+decay_dbd_level : integer = 0
+decay_dbd_mode  : integer = 4
+energy_min      : real    = 2.7306 MeV # 90% x Qbb (3.034 MeV)
+################################
+
+################################
+[name="cd116_2b0n" type="genbb::wdecay0"]
+decay_type      : string  = "DBD"
+decay_isotope   : string  = "Cd116"
+decay_dbd_level : integer = 0
+decay_dbd_mode  : integer = 1
+################################
+[name="cd116_2b2n" type="genbb::wdecay0"]
+decay_type      : string  = "DBD"
+decay_isotope   : string  = "Cd116"
+decay_dbd_level : integer = 0
+decay_dbd_mode  : integer = 4
+################################
+[name="cd116_2b2n_tail75" type="genbb::wdecay0"]
+decay_type      : string  = "DBD"
+decay_isotope   : string  = "Cd116"
+decay_dbd_level : integer = 0
+decay_dbd_mode  : integer = 4
+energy_min      : real    = 2.10375 MeV # 75% x Qbb (2.805 MeV)
+################################
+[name="cd116_2b2n_tail85" type="genbb::wdecay0"]
+decay_type      : string  = "DBD"
+decay_isotope   : string  = "Cd116"
+decay_dbd_level : integer = 0
+decay_dbd_mode  : integer = 4
+energy_min      : real    = 2.38425 MeV # 85% x Qbb (2.805 MeV)
+################################
+[name="cd116_2b2n_tail90" type="genbb::wdecay0"]
+decay_type      : string  = "DBD"
+decay_isotope   : string  = "Cd116"
+decay_dbd_level : integer = 0
+decay_dbd_mode  : integer = 4
+energy_min      : real    = 2.5245 MeV # 90% x Qbb (2.805 MeV)
+################################
+
+################################
+[name="te130_2b0n" type="genbb::wdecay0"]
+decay_type      : string  = "DBD"
+decay_isotope   : string  = "Te130"
+decay_dbd_level : integer = 0
+decay_dbd_mode  : integer = 1
+################################
+[name="te130_2b2n" type="genbb::wdecay0"]
+decay_type      : string  = "DBD"
+decay_isotope   : string  = "Te130"
+decay_dbd_level : integer = 0
+decay_dbd_mode  : integer = 4
+################################
+[name="te130_2b2n_tail75" type="genbb::wdecay0"]
+decay_type      : string  = "DBD"
+decay_isotope   : string  = "Te130"
+decay_dbd_level : integer = 0
+decay_dbd_mode  : integer = 4
+energy_min      : real    = 1.89675 MeV # 75% x Qbb (2.529 MeV)
+################################
+[name="te130_2b2n_tail85" type="genbb::wdecay0"]
+decay_type      : string  = "DBD"
+decay_isotope   : string  = "Te130"
+decay_dbd_level : integer = 0
+decay_dbd_mode  : integer = 4
+energy_min      : real    = 2.14965 MeV # 85% x Qbb (2.529 MeV)
+################################
+[name="te130_2b2n_tail90" type="genbb::wdecay0"]
+decay_type      : string  = "DBD"
+decay_isotope   : string  = "Te130"
+decay_dbd_level : integer = 0
+decay_dbd_mode  : integer = 4
+energy_min      : real    = 2.2761 MeV # 90% x Qbb (2.529 MeV)
+################################
+
+################################
+[name="xe136_2b0n" type="genbb::wdecay0"]
+decay_type      : string  = "DBD"
+decay_isotope   : string  = "Xe136"
+decay_dbd_level : integer = 0
+decay_dbd_mode  : integer = 1
+################################
+[name="xe136_2b2n" type="genbb::wdecay0"]
+decay_type      : string  = "DBD"
+decay_isotope   : string  = "Xe136"
+decay_dbd_level : integer = 0
+decay_dbd_mode  : integer = 4
+################################
+[name="xe136_2b2n_tail75" type="genbb::wdecay0"]
+decay_type      : string  = "DBD"
+decay_isotope   : string  = "Xe136"
+decay_dbd_level : integer = 0
+decay_dbd_mode  : integer = 4
+energy_min      : real    = 1.851 MeV # 75% x Qbb (2.468 MeV)
+################################
+[name="xe136_2b2n_tail85" type="genbb::wdecay0"]
+decay_type      : string  = "DBD"
+decay_isotope   : string  = "Xe136"
+decay_dbd_level : integer = 0
+decay_dbd_mode  : integer = 4
+energy_min      : real    = 2.0978 # 85% x Qbb (2.468 MeV)
+################################
+[name="xe136_2b2n_tail90" type="genbb::wdecay0"]
+decay_type      : string  = "DBD"
+decay_isotope   : string  = "Xe136"
+decay_dbd_level : integer = 0
+decay_dbd_mode  : integer = 4
+energy_min      : real    = 2.2212 MeV # 90% x Qbb (2.468 MeV)
+################################
+
+################################
+[name="nd150_2b0n" type="genbb::wdecay0"]
+decay_type      : string  = "DBD"
+decay_isotope   : string  = "Nd150"
+decay_dbd_level : integer = 0
+decay_dbd_mode  : integer = 1
+################################
+[name="nd150_2b2n" type="genbb::wdecay0"]
+decay_type      : string  = "DBD"
+decay_isotope   : string  = "Nd150"
+decay_dbd_level : integer = 0
+decay_dbd_mode  : integer = 4
+################################
+[name="nd150_2b2n_tail75" type="genbb::wdecay0"]
+decay_type      : string  = "DBD"
+decay_isotope   : string  = "Nd150"
+decay_dbd_level : integer = 0
+decay_dbd_mode  : integer = 4
+energy_min      : real    = 2.52525 MeV # 75% x Qbb (3.367 MeV)
+################################
+[name="nd150_2b2n_tail85" type="genbb::wdecay0"]
+decay_type      : string  = "DBD"
+decay_isotope   : string  = "Nd150"
+decay_dbd_level : integer = 0
+decay_dbd_mode  : integer = 4
+energy_min      : real    = 2.86195 MeV # 85% x Qbb (3.367 MeV)
+################################
+[name="nd150_2b2n_tail90" type="genbb::wdecay0"]
+decay_type      : string  = "DBD"
+decay_isotope   : string  = "Nd150"
+decay_dbd_level : integer = 0
+decay_dbd_mode  : integer = 4
+energy_min      : real    = 3.0303 MeV # 90% x Qbb (3.367 MeV)
+################################
+
+# end of dbd.def

@@ -1,0 +1,25 @@
+# -*- mode: conf-unix; -*-
+
+#@description A non-exhaustive list of GENBB BG generators
+#@key_label   "name"
+#@meta_label  "type"
+
+################################
+[name="k40" type="genbb::wdecay0"]
+decay_type      : string  = "background"
+decay_isotope   : string  = "K40"
+################################
+[name="bi207" type="genbb::wdecay0"]
+decay_type      : string  = "background"
+decay_isotope   : string  = "Bi207"
+################################
+[name="bi214" type="genbb::wdecay0"]
+decay_type      : string  = "background"
+decay_isotope   : string  = "Bi214"
+################################
+[name="tl208" type="genbb::wdecay0"]
+decay_type      : string  = "background"
+decay_isotope   : string  = "Tl208"
+################################
+
+# end of dbd.def
